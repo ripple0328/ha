@@ -1,0 +1,10 @@
+title: Hello Panel
+widget_dimensions: [120, 120]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+columns: 6
+rows: 4
+layout:
+    - clock.clock(2x2), weather.weather(2x3)
+    - sensor.illumination_34ce00fa599b, binary_sensor.door_window_sensor_158d000120c826, binary_sensor.motion_sensor_158d00012254b0,binary_sensor.switch_158d000182fa7a
+    - light.gateway_light_34ce00fa599b, light.yeelight_rgb_34ce0084e2f4, switch.plug_158d0001dc3b13

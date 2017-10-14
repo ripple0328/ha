@@ -1,0 +1,41 @@
+rooms_view:           # 这是整个 ROOMS 页的设置 下节会讲解分页
+  name: ROOMS         # 显示名称
+  view: yes           #是否分页 即在页头显示
+  entities:           # ROOM 分页下的组
+    - group.Entrance  # 玄关
+    - group.LivingRoom
+    - group.DinnerRoom
+    - group.CookRoom
+    - group.BedRoom
+Entrance:             # 一个典型的 group，这一行名字自定义
+  name: 玄关          # 显示名称
+  view: no            # 不分页，
+  icon: mdi:home-variant             # 组作为一个整体时的图标
+  entities:                          # 组下包含设备
+    - light.gateway_light_34ce00fa599b
+    - sensor.illumination_34ce00fa599b
+LivingRoom:
+  name: 客厅
+  view: no
+  icon: mdi:sofa
+  entities:
+    - switch.plug_158d0001dc3b13
+DinnerRoom:
+  name: 餐厅
+  view: no
+  icon: mdi:glass-tulip
+  entities:
+CookRoom:
+  name: 厨房
+  view: no
+  icon: mdi:pot
+  entities:
+BedRoom:
+  name: 主卧
+  view: no
+  icon: mdi:hotel
+  entities:
+    - binary_sensor.door_window_sensor_158d000120c826
+    - binary_sensor.motion_sensor_158d00012254b0
+    - binary_sensor.switch_158d000182fa7a
+    - light.yeelight_rgb_34ce0084e2f4

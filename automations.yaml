@@ -1,0 +1,9 @@
+- alias: "flow control"
+  trigger: 
+    - platform: numeric_state
+      entity_id: sensor.flow
+      value_template: "{{ state.state }}"
+      above: 2
+  action: 
+    - service: switch.turn_off
+      entity_id: switch.valve

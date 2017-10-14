@@ -1,0 +1,75 @@
+binary_sensor.door_window_sensor_158d000120c826:
+  friendly_name: "\u4E3B\u5367\u7A97\u6237\u4F20\u611F\u5668"
+  icon: mdi:windows
+  hidden: false
+  homebridge_name: "\u4E3B\u5367\u7A97\u6237\u4F20\u611F\u5668"
+  homebridge_hidden: false
+binary_sensor.motion_sensor_158d00012254b0:
+  friendly_name: "\u4E3B\u5367\u4EBA\u4F53\u611F\u5E94\u5668"
+  icon: mdi:human-male
+  hidden: false
+  homebridge_name: "\u4E3B\u5367\u4EBA\u4F53\u611F\u5E94\u5668"
+  homebridge_hidden: false
+binary_sensor.switch_158d000182fa7a:
+  friendly_name: "\u5F00\u5173"
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: "\u5F00\u5173"
+  homebridge_hidden: false
+light.gateway_light_34ce00fa599b:
+  friendly_name: "\u7384\u5173\u706F"
+  icon: mdi:lightbulb
+  hidden: false
+  homebridge_name: "\u7384\u5173\u706F"
+  homebridge_hidden: false
+light.yeelight_rgb_34ce0084e2f4:
+  friendly_name: "\u4E3B\u5367\u667A\u80FD\u706F"
+  icon: mdi:lightbulb
+  hidden: false
+  homebridge_name: "\u4E3B\u5367\u667A\u80FD\u706F"
+  homebridge_hidden: false
+sensor.illumination_34ce00fa599b:
+  friendly_name: "\u5BA2\u5385\u7167\u660E\u4F20\u611F\u5668"
+  icon: mdi:lightbulb-on-outline
+  hidden: false
+  homebridge_name: "\u5BA2\u5385\u7167\u660E\u4F20\u611F\u5668"
+  homebridge_hidden: false
+sensor.temperature_2:
+  friendly_name: "\u6E29\u5EA6\u4F20\u611F\u5668"
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: "\u6E29\u5EA6\u4F20\u611F\u5668"
+  homebridge_hidden: false
+sensor.humidity:
+  friendly_name: "\u6E7F\u5EA6\u4F20\u611F\u5668"
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: "\u6E7F\u5EA6\u4F20\u611F\u5668"
+  homebridge_hidden: false
+sensor.pm25:
+  friendly_name: PM2.5
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: PM2.5
+  homebridge_hidden: false
+sensor.pm10_2:
+  friendly_name: PM1.0
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: PM1.0
+  homebridge_hidden: false
+sensor.pm10:
+  friendly_name: PM10
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: PM10
+  homebridge_hidden: false
+switch.plug_158d0001dc3b13:
+  friendly_name: "\u5BA2\u5385\u63D2\u5EA7"
+  icon: mdi:toggle-switch
+  hidden: false
+  homebridge_name: "\u5BA2\u5385\u63D2\u5EA7"
+  homebridge_hidden: false
+switch.valve:
+  friendly_name: Valve
+  unit_of_measurement: on/off

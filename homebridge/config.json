@@ -1,0 +1,35 @@
+{
+  "bridge": {
+    "name": "Home Assistant",
+    "username": "02:42:AC:1E:21:02",
+    "port": 51826,
+    "pin": "867-89-620"
+  },
+  "description": "Homebridge for Home Assistant",
+  "accessories": [],
+  "platforms": [
+    {
+      "platform": "HomeAssistant",
+      "name": "HomeAssistant",
+      "host": "http://192.168.199.186:8123",
+      "password": "",
+      "default_visibility": "visible",
+      "supported_types": [
+        "binary_sensor",
+        "climate",
+        "cover",
+        "device_tracker",
+        "fan",
+        "group",
+        "input_boolean",
+        "light",
+        "lock",
+        "media_player",
+        "scene",
+        "sensor",
+        "switch"
+      ],
+      "logging": true
+    }
+  ]
+}

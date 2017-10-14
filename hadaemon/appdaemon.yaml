@@ -1,0 +1,14 @@
+AppDaemon:
+  cert_verify: False
+  disable_apps: 1
+  logfile: STDOUT
+  errorfile: STDERR
+  threads: 5
+  app_dir: /config/hadaemon/apps
+HASS:
+  ha_url: http://hassio.local:8123
+  ha_key: 
+HADashboard:
+  dash_url: http://hassio.local:3030
+  dash_dir: /config/hadaemon/dashboards
+  dash_force_compile: 1
