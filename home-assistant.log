@@ -1,6 +1,2 @@
-2017-10-14 21:26:25 ERROR (SyncWorker_0) [homeassistant.util.yaml] while parsing a flow node
-expected the node content, but found '-'
-  in "/config/automations.yaml", line 2, column 3
-2017-10-14 21:26:25 ERROR (MainThread) [homeassistant.bootstrap] Error loading /config/configuration.yaml: while parsing a flow node
-expected the node content, but found '-'
-  in "/config/automations.yaml", line 2, column 3
+2017-10-14 21:50:29 WARNING (MainThread) [homeassistant.setup] Setup of sensor is taking over 10 seconds.
+2017-10-14 21:50:39 WARNING (MainThread) [homeassistant.components.sensor] Setup of platform yr is taking over 10 seconds.
