@@ -34,12 +34,6 @@ sensor.illumination_34ce00fa599b:
   hidden: false
   homebridge_name: "\u5BA2\u5385\u7167\u660E\u4F20\u611F\u5668"
   homebridge_hidden: false
-sensor.temperature_2:
-  friendly_name: "\u6E29\u5EA6\u4F20\u611F\u5668"
-  icon: mdi:toggle-switch
-  hidden: false
-  homebridge_name: "\u6E29\u5EA6\u4F20\u611F\u5668"
-  homebridge_hidden: false
 sensor.humidity:
   friendly_name: "\u6E7F\u5EA6\u4F20\u611F\u5668"
   icon: mdi:toggle-switch

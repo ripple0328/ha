@@ -1,7 +1,7 @@
-._*
+hadaemon/compiled/
 home-assistant_v2.db
-home-assistant.log
-.uuid
+._*
+hadaemon/compiled/*
 .DS_Store
-.ios.conf
-.HA_VERSION
+*.log
+homebridge/persist/*

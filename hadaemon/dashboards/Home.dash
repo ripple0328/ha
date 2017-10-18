@@ -1,0 +1,18 @@
+##
+## Main arguments, all optional
+##
+title: Home Panel
+widget_dimensions: [240, 240]
+widget_size: [1, 1]
+widget_margins: [5, 5]
+columns: 6
+global_parameters:
+    use_comma: 0
+    precision: 1
+    use_hass_icon: 1
+layout:
+    - clock
+    - sensor.temperature_2, sensor.humidity,sensor.pm10_2, sensor.pm25, sensor.pm10
+    - sensor.illumination_34ce00fa599b,light.gateway_light_34ce00fa599b, switch.plug_158d0001dc3b13, switch.valve
+clock:
+    widget_type: clock
